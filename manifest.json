@@ -3,7 +3,7 @@
 
   "name": "Presearch.org Start With Us",
   "description": "Set Firefox's Homepage and New Tab page to Presearch.org",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "homepage_url": "https://www.presearch.org/?utm_source=extff",
   "icons": {
       "16": "img/icon16.png",
@@ -25,6 +25,7 @@
   "permissions": [
     "activeTab",
     "storage",
+    "tabs",
     "*://*.presearch.org/*"
   ],
   "chrome_settings_overrides": {
